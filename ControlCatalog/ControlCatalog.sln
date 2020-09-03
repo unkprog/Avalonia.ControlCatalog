@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCatalog", "ControlCatalog\ControlCatalog.csproj", "{622CB860-01C3-4BBA-8165-45FF3FBE09AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{622CB860-01C3-4BBA-8165-45FF3FBE09AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622CB860-01C3-4BBA-8165-45FF3FBE09AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622CB860-01C3-4BBA-8165-45FF3FBE09AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622CB860-01C3-4BBA-8165-45FF3FBE09AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F68F1C-61B4-4969-A212-92E277382E7B}
+	EndGlobalSection
+EndGlobal

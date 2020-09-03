@@ -1,0 +1,122 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="App.xaml" />
+    <None Remove="DecoratedWindow.xaml" />
+    <None Remove="MainView.xaml" />
+    <None Remove="MainWindow.xaml" />
+    <None Remove="Pages\AcrylicPage.xaml" />
+    <None Remove="Pages\AutoCompleteBoxPage.xaml" />
+    <None Remove="Pages\BorderPage.xaml" />
+    <None Remove="Pages\ButtonPage.xaml" />
+    <None Remove="Pages\ButtonSpinnerPage.xaml" />
+    <None Remove="Pages\CalendarDatePickerPage.xaml" />
+    <None Remove="Pages\CalendarPage.xaml" />
+    <None Remove="Pages\CanvasPage.xaml" />
+    <None Remove="Pages\CarouselPage.xaml" />
+    <None Remove="Pages\CheckBoxPage.xaml" />
+    <None Remove="Pages\ComboBoxPage.xaml" />
+    <None Remove="Pages\ContextMenuPage.xaml" />
+    <None Remove="Pages\DataGridPage.xaml" />
+    <None Remove="Pages\DateTimePickerPage.xaml" />
+    <None Remove="Pages\DialogsPage.xaml" />
+    <None Remove="Pages\DragAndDropPage.xaml" />
+    <None Remove="Pages\ExpanderPage.xaml" />
+    <None Remove="Pages\ImagePage.xaml" />
+    <None Remove="Pages\ItemsRepeaterPage.xaml" />
+    <None Remove="Pages\LayoutTransformControlPage.xaml" />
+    <None Remove="Pages\ListBoxPage.xaml" />
+    <None Remove="Pages\MenuPage.xaml" />
+    <None Remove="Pages\NotificationsPage.xaml" />
+    <None Remove="Pages\NumericUpDownPage.xaml" />
+    <None Remove="Pages\OpenGlPage.xaml" />
+    <None Remove="Pages\ProgressBarPage.xaml" />
+    <None Remove="Pages\RadioButtonPage.xaml" />
+    <None Remove="Pages\ScrollViewerPage.xaml" />
+    <None Remove="Pages\SliderPage.xaml" />
+    <None Remove="Pages\SplitViewPage.xaml" />
+    <None Remove="Pages\TabControlPage.xaml" />
+    <None Remove="Pages\TabStripPage.xaml" />
+    <None Remove="Pages\teapot.bin" />
+    <None Remove="Pages\TextBlockPage.xaml" />
+    <None Remove="Pages\TextBoxPage.xaml" />
+    <None Remove="Pages\ToggleSwitchPage.xaml" />
+    <None Remove="Pages\ToolTipPage.xaml" />
+    <None Remove="Pages\TreeViewPage.xaml" />
+    <None Remove="Pages\ViewboxPage.xaml" />
+    <None Remove="Pages\WindowCustomizationsPage.xaml" />
+    <None Remove="SideBar.xaml" />
+    <None Remove="Views\CustomNotificationView.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaXaml Include="App.xaml" />
+    <AvaloniaXaml Include="DecoratedWindow.xaml" />
+    <AvaloniaXaml Include="MainView.xaml" />
+    <AvaloniaXaml Include="MainWindow.xaml" />
+    <AvaloniaXaml Include="Pages\AcrylicPage.xaml" />
+    <AvaloniaXaml Include="Pages\AutoCompleteBoxPage.xaml" />
+    <AvaloniaXaml Include="Pages\BorderPage.xaml" />
+    <AvaloniaXaml Include="Pages\ButtonPage.xaml" />
+    <AvaloniaXaml Include="Pages\ButtonSpinnerPage.xaml" />
+    <AvaloniaXaml Include="Pages\CalendarDatePickerPage.xaml" />
+    <AvaloniaXaml Include="Pages\CalendarPage.xaml" />
+    <AvaloniaXaml Include="Pages\CanvasPage.xaml" />
+    <AvaloniaXaml Include="Pages\CarouselPage.xaml" />
+    <AvaloniaXaml Include="Pages\CheckBoxPage.xaml" />
+    <AvaloniaXaml Include="Pages\ComboBoxPage.xaml" />
+    <AvaloniaXaml Include="Pages\ContextMenuPage.xaml" />
+    <AvaloniaXaml Include="Pages\DataGridPage.xaml" />
+    <AvaloniaXaml Include="Pages\DateTimePickerPage.xaml" />
+    <AvaloniaXaml Include="Pages\DialogsPage.xaml" />
+    <AvaloniaXaml Include="Pages\DragAndDropPage.xaml" />
+    <AvaloniaXaml Include="Pages\ExpanderPage.xaml" />
+    <AvaloniaXaml Include="Pages\ImagePage.xaml" />
+    <AvaloniaXaml Include="Pages\ItemsRepeaterPage.xaml" />
+    <AvaloniaXaml Include="Pages\LayoutTransformControlPage.xaml" />
+    <AvaloniaXaml Include="Pages\ListBoxPage.xaml" />
+    <AvaloniaXaml Include="Pages\MenuPage.xaml" />
+    <AvaloniaXaml Include="Pages\NotificationsPage.xaml" />
+    <AvaloniaXaml Include="Pages\NumericUpDownPage.xaml" />
+    <AvaloniaXaml Include="Pages\OpenGlPage.xaml" />
+    <AvaloniaXaml Include="Pages\ProgressBarPage.xaml" />
+    <AvaloniaXaml Include="Pages\RadioButtonPage.xaml" />
+    <AvaloniaXaml Include="Pages\ScrollViewerPage.xaml" />
+    <AvaloniaXaml Include="Pages\SliderPage.xaml" />
+    <AvaloniaXaml Include="Pages\SplitViewPage.xaml" />
+    <AvaloniaXaml Include="Pages\TabControlPage.xaml" />
+    <AvaloniaXaml Include="Pages\TabStripPage.xaml" />
+    <AvaloniaXaml Include="Pages\TextBlockPage.xaml" />
+    <AvaloniaXaml Include="Pages\TextBoxPage.xaml" />
+    <AvaloniaXaml Include="Pages\ToggleSwitchPage.xaml" />
+    <AvaloniaXaml Include="Pages\ToolTipPage.xaml" />
+    <AvaloniaXaml Include="Pages\TreeViewPage.xaml" />
+    <AvaloniaXaml Include="Pages\ViewboxPage.xaml" />
+    <AvaloniaXaml Include="Pages\WindowCustomizationsPage.xaml" />
+    <AvaloniaXaml Include="SideBar.xaml" />
+    <AvaloniaXaml Include="Views\CustomNotificationView.xaml" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <Content Include="Assets\avalonia-logo.ico" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\teapot.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.10.0-preview5" />
+    <PackageReference Include="Avalonia.Controls.DataGrid" Version="0.10.0-preview5" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.0-preview5" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.0-preview5" />
+  </ItemGroup>
+ 
+</Project>
